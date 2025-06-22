@@ -1,0 +1,45 @@
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(145deg, #1f1f1f, #121212);
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.hero-title span {
+  color: #00aaff;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #cccccc;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-contact {
+  font-size: 1rem;
+  color: #bbbbbb;
+}
+
+.hero-contact p {
+  margin: 0.3rem 0;
+}
+
+.hero-contact a {
+  color: #00aaff;
+  text-decoration: none;
+  margin: 0 0.4rem;
+}
+
+.hero-contact a:hover {
+  text-decoration: underline;
+}

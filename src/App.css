@@ -1,0 +1,56 @@
+/* Global reset for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove default body spacing */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* Section container - no spacing */
+section {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Section wrapper */
+.section {
+  padding: 0;
+  margin: 0;
+}
+
+/* Section headings */
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Paragraphs inside sections */
+.section p {
+  margin: 0;
+  padding: 0.25rem 0;
+}
+
+/* List styling */
+.section-list {
+  list-style-type: disc;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.section-list li {
+  margin: 0;
+  padding: 0.25rem 0;
+  line-height: 1.4;
+}

@@ -1,0 +1,40 @@
+.projects-section {
+  margin-bottom: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.project-card {
+  background: #1e1e1e;
+  padding: 1.25rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(0, 170, 255, 0.3);
+}
+
+.project-card h3 {
+  color: #00aaff;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.project-card .tech {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  color: #ddd;
+  font-size: 0.95rem;
+}

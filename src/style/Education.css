@@ -1,0 +1,35 @@
+.education-section {
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+/* Education card with consistent dark theme */
+.education-card {
+  background-color: #1e1e1e;
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-top: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect similar to project cards */
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 170, 255, 0.3);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Text styles remain consistent */
+.degree {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.institute, .cgpa {
+  font-size: 0.95rem;
+  color: #cccccc;
+  margin: 0.25rem 0;
+}
